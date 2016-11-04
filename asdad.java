@@ -11,7 +11,7 @@ public class asdad {
 		students.add("小刘,女,1990-10-12");
 		for (String info : students) {
 			String[] aaa = info.split(",");
-			// System.out.println(Arrays.toString(aaa));
+			System.out.println(Arrays.toString(aaa));
 			for (int i = 0; i < aaa.length; i++) {
 				System.out.println(aaa[i]);
 			}
